@@ -6,7 +6,7 @@ import org.glassfish.jersey.server.ResourceConfig;
 
 import java.io.IOException;
 import java.net.URI;
-
+test build
 /**
  * Main class.
  *
