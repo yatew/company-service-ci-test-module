@@ -11,6 +11,48 @@
     <version>1.0-SNAPSHOT</version>
     <name>company-service-ci-test-module</name>
 
+
+ 
+    <scm>
+        <connection>scm:git:file://${basedir}</connection>
+		<developerConnection>scm:git:file://${basedir}</developerConnection>
+	  <tag>HEAD</tag>
+  </scm>
+
+	<repositories>
+    <repository>
+      <id>libs-release</id>
+      <name>libs-release</name>
+      <url>https://artifactory.fuhu.org/artifactory/libs-release</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>libs-snapshot</id>
+      <name>libs-snapshot</name>
+      <url>https://artifactory.fuhu.org/artifactory/libs-snapshot</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>libs-release</id>
+			<name>libs-release</name>
+			<url>https://artifactory.fuhu.org/artifactory/fuhu-releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>libs-snapshot</id>
+			<name>libs-snapshot</name>
+			<url>https://artifactory.fuhu.org/artifactory/fuhu-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+
+
     <dependencyManagement>
         <dependencies>
             <dependency>
