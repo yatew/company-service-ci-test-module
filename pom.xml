@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <!-- comment -->
 
@@ -8,7 +7,7 @@
     <groupId>com.company.service</groupId>
     <artifactId>company-service-ci-test-module</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1</version>
     <name>company-service-ci-test-module</name>
 
 
@@ -16,7 +15,7 @@
     <scm>
         <connection>scm:git:file://${basedir}</connection>
 		<developerConnection>scm:git:file://${basedir}</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>tag-company-service-ci-test-module-1.0.1</tag>
   </scm>
 
 	<repositories>
