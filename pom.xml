@@ -17,6 +17,7 @@
 		-->
 	</scm>
 
+	<!--  
 	<repositories>
 		<repository>
 			<id>libs-release</id>
@@ -35,6 +36,7 @@
 			</snapshots>
 		</repository>
 	</repositories>
+	-->
 
 	<distributionManagement>
 		<repository>
